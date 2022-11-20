@@ -1,0 +1,12 @@
+[package]
+name = "benchmark_tests"
+version = "0.1.0"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "sierpinski_benchmark"
+harness = false
