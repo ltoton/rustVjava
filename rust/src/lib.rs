@@ -29,6 +29,8 @@ pub fn sierpinski() {
     }
 }
 
+fn binarySearch(
+
 
 fn main() {
     sierpinski();

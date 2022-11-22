@@ -1,1 +1,2 @@
+JMH S 18 Bench.BinarySearch S 45 Bench.jmh_generated.BinarySearch_init_jmhTest S 4 init S 10 Throughput E A 1 1 1 E E E E E E E I 1 1 I 1 1 E E E E E E E E 
 JMH S 16 Bench.Sierpinski S 43 Bench.jmh_generated.Sierpinski_init_jmhTest S 4 init S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 

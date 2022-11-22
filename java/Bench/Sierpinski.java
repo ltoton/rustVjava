@@ -5,11 +5,6 @@ import org.openjdk.jmh.infra.Blackhole;
 import org.openjdk.jmh.infra.Control;
 
 public class Sierpinski {
-
-    public static void main(String[] args) {
-
-    }
-
     @Benchmark
     public void init() {
         getSierpinskiTriangle(14);
