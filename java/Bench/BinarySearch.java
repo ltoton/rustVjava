@@ -1,21 +1,17 @@
 package Bench;
 
-import org.openjdk.jmh.annotations.Benchmark;
-import org.openjdk.jmh.annotations.Fork;
 
 public class BinarySearch {
 
-    @Benchmark
-    @Fork(value = 1, warmups = 1)
-    public void init() {
-        int[] array = new int[1000000];
+    public static void init() {
+        int[] array = new int[1000000000];
         for (int i = 0; i < array.length; i++) {
             array[i] = i;
         }
-        binarySearch(array, 500000);
+        binarySearch(array, 125000);
     }
 
-    public void binarySearch(int[] nums, int check) {
+    public static void binarySearch(int[] nums, int check) {
         int hi = nums.length - 1;
         int lo = 0;
         while (hi >= lo) {

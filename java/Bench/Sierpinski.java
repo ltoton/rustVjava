@@ -1,15 +1,6 @@
 package Bench;
 
-import org.openjdk.jmh.annotations.*;
-import org.openjdk.jmh.infra.Blackhole;
-import org.openjdk.jmh.infra.Control;
-
 public class Sierpinski {
-    @Benchmark
-    public void init() {
-        getSierpinskiTriangle(14);
-    }
-
     public static String getSierpinskiTriangle(int n) {
         if ( n == 0 ) {
             return "*";
